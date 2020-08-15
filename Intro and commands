@@ -36,4 +36,4 @@ COMMANDS
 ->git BRANCH_NAME -- Create a new BRANCH....
 ->git checkout BRANCH_NAME -- switch b/w branches
 ->git merge BRANCH_NAME -- merge branches
-                  
+->git push -f origin master (f- force commit)
