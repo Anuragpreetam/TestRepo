@@ -1,0 +1,39 @@
+What is Git?
+
+Git is a 'Version control System' for tracking changes
+in computer files.
+
+->Distributed Version control
+->Coordinates work b/w multiple devs
+->Who made what changes and when
+->Revert back at anytime
+->Local & remote repos.
+
+Are you tired of switching between different windows to edit code, review changes, and push your commits to GitHub?
+
+Usually when you use git you'll have a repo on your Local
+machine that you work on , make changes and then you upload it to 
+or push it to a remote repo(ex : github or bitbucket)
+
+CONCEPTS OF GIT
+->Keeps track of code histroy
+->Takes 'snapshots' of your files
+->You decide when to take a snapshot by making a commit
+->You can vist any snapshot at anytime
+->You can stage files before committing
+
+
+COMMANDS
+->git init       -- Initialize Local Git repo
+->git add <file> -- Add Files to Index
+->git status     -- Chack status of working Tree
+->git commit     -- Commit changes in index
+->git push       -- Push to remote repo
+->git pull       --Pull latest from Remote repo
+->git clone      --Clone Repo into A new Directory
+->git config     --global user.name 'YOUR_NAME'/ global user.email 'YOUR_EMAIL'
+->git commit -m "YOUR MESSAGE"-- //To ignore getting into vim
+->git BRANCH_NAME -- Create a new BRANCH....
+->git checkout BRANCH_NAME -- switch b/w branches
+->git merge BRANCH_NAME -- merge branches
+                  
